@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Rawen ♥</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <a class="brand" href="#"><span>♥</span> FOR <span class="dim">RAWEN</span></a>
+      <div class="status"><i></i> LIVE CANVAS</div>
+    </header>
+
+    <section class="workspace single">
+      <section class="canvas-panel">
+        <div class="panel-meta"><span>01 / CANVAS</span><span id="statusText">RENDERING</span></div>
+        <canvas id="heartCanvas"></canvas>
+        <div class="heart-name" aria-label="Rawen">RAWEN</div>
+        <div class="caption">
+          <div class="mini-heart">♥</div>
+          <div><strong>Made with love.</strong><small>A heart drawn just for Rawen.</small></div>
+        </div>
+        <div class="coords" id="coords">X 000 · Y 000</div>
+      </section>
+    </section>
+
+    <footer class="controls">
+      <div class="controls-title"><b>MAKE IT YOURS</b><small>Adjust the look of your heart</small></div>
+      <label class="control">Glow <input id="glow" type="range" min="0" max="30" value="14"><output id="glowOut">14</output></label>
+      <label class="control">Layers <input id="layers" type="range" min="1" max="9" value="5"><output id="layersOut">5</output></label>
+      <label class="control">Speed <input id="speed" type="range" min="1" max="10" value="5"><output id="speedOut">5</output></label>
+      <button id="pause" class="pause">Ⅱ <span>Pause</span></button>
+      <button id="reset" class="reset" title="Reset">↺</button>
+    </footer>
+    <p class="note">A little animated heart, made for Rawen.</p>
+    <div class="creator-credit">CREATED WITH ♥ BY <strong>MAJDI</strong></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
